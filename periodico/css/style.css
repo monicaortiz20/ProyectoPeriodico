@@ -1,0 +1,57 @@
+html{
+    font-family: 'Inconsolata', monospace;
+}
+
+header{
+    background-color: #ADB5BD;
+    background-image: ;
+    padding: 40px;
+    text-align: center;
+    color: #495057;
+    font-size: 3rem;
+}
+
+body{
+    width: 100%;
+}
+
+section{
+        padding: 60px;
+        column-count: 3;
+        column-width: 33%;
+        column-gap: 30px;
+        word-wrap:normal;
+        background-color: #E9ECEF;
+        position: absolute;
+}
+
+article.noticia{
+    margin: 10px;
+    padding:30px;
+    display: inline-block;
+    }
+
+article p {
+    line-height: 2rem;
+    text-align: justify;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+h1{
+    background-color: #495057;
+    color: #E9ECEF;
+    margin: auto;
+    padding: 15px;
+}
+
+h3{
+    font-style: italic;
+}
+
+img{
+    display: flex;
+    margin: 0px auto;
+}
